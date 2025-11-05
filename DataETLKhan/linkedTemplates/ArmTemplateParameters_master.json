@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DataETLKhan"
+		},
+		"ls_SQLSpotify_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_SQLSpotify_properties_typeProperties_server": {
+			"value": "serverspotifystreamdata.database.windows.net"
+		},
+		"ls_SQLSpotify_properties_typeProperties_database": {
+			"value": "db_spotifystreamdata"
+		},
+		"ls_SQLSpotify_properties_typeProperties_userName": {
+			"value": "adminkhan"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://spotifykhandatalake.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
